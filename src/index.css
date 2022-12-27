@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .login-register-btn {
+    @apply text-white bg-green-600 text-sm p-2 rounded mt-2 w-full;
+  }
+  .menu-link {
+    @apply inline-block p-2 rounded text-white text-base;
+  }
+  .menu-link-hover {
+    @apply bg-green-600;
+  }
+}
